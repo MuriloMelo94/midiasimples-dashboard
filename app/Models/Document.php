@@ -14,8 +14,8 @@ class Document extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function product(): BelongsTo
+    public function notebook(): BelongsTo
     {
-        return $this->belongsTo(Product::class);
+        return $this->belongsTo(Notebook::class);
     }
 }
